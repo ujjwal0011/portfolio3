@@ -1,7 +1,10 @@
 import { Hero } from "./components/Hero";
 import { Nav } from "./components/Nav";
+import SkillsSection from "./components/Skills";
 import SplashCursor from "./components/ui/splash-cursor";
 import Grid from "./components/Grid";
+import Projects from "./components/Projects";
+
 import { cn } from "@/lib/utils";
 
 function App() {
@@ -26,17 +29,23 @@ function App() {
           <SplashCursor />
 
           {/* Hero Section - Full Height */}
-          <section
-            id="hero"
-            
-          >
-            <Hero />
+          <section id="home">
+          <Hero />
+
           </section>
 
           {/* Grid Component - About Section */}
           <section id="about">
-            <Grid />
+          <Grid />
+
           </section>
+
+            <section id="skills">
+            <SkillsSection />
+            </section>
+
+            <Projects />
+
 
           {/* Main Content Area - Dark Background */}
 

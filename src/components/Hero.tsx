@@ -22,7 +22,7 @@ export function Hero() {
               Kindly refresh if you experience any issues.
             </p>
             <div className="mt-4">
-              <RainbowButton>
+              <RainbowButton className="bg-white text-black">
                 <a
                   href="https://drive.google.com/file/d/1sBY-VmhROzsrPD40g4Q55z9XlTjOsthD/view?usp=sharing"
                   target="_blank"

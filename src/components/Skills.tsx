@@ -30,7 +30,7 @@ const skillCategories = [
 
 function App() {
   return (
-    <div className="min-h-screen bg-transparent text-white relative overflow-hidden">
+    <div className="min-h-screen bg-transparent text-white relative overflow-hidden" id="skills">
       <div className="relative py-20">
         {/* Background grid (more subtle) */}
         <div className="absolute inset-0 bg-grid-white/[0.01] bg-[size:50px_50px]" />

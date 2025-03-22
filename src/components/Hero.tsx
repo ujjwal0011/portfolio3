@@ -7,7 +7,7 @@ import { Card } from "./ui/card";
 export function Hero() {
   return (
     <section id="home">
-      <Card className="w-full h-[470px]  bg-black relative overflow-hidden">
+      <Card className="w-full h-[470px] bg-transparent relative overflow-hidden">
         <div className="flex h-full">
           <div className="flex-1 p-8 relative z-10 flex flex-col justify-center">
             <h1 className="text-4xl md:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">

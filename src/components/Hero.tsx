@@ -47,16 +47,6 @@ export function Hero() {
                   Resume
                 </a>
               </UiverseButton>
-              <UiverseButton>
-                <a
-                  href="https://drive.google.com/file/d/1MWNWoAKA-U6HPDc5dPv8fo0DecjHzLyr/view?usp=sharing"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-black"
-                >
-                  Video CV
-                </a>
-              </UiverseButton>
             </div>
           </div>
           
